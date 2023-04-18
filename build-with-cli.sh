@@ -15,7 +15,7 @@
 #	See accompanying LICENSE.md file
 #
 # Author:
-#	Terry Moore, MCCI	March 2023
+#	Terry Moore, MCCI	April 2023
 #
 ##############################################################################
 
@@ -44,8 +44,8 @@ cd "$PDIR"
 
 function _setProject {
     #---- project settings -----
-    readonly OPTOUTPUTNAME_DEFAULT=Catena_Iqs620a_simple
-    readonly OPTARDUINO_SOURCE_DEFAULT=sketches/Catena_Iqs620a_simple/Catena_Iqs620a_simple.ino
+    readonly OPTOUTPUTNAME_DEFAULT=Catena_Iqs620a_lorawan
+    readonly OPTARDUINO_SOURCE_DEFAULT=sketches/Catena_Iqs620a_lorawan/Catena_Iqs620a_lorawan.ino
     readonly OPTARDUINO_BOARD_DEFAULT=4610
     readonly OPTKEYFILE_DEFAULT="$INVOKEDIR/keys/project.pem"
     readonly OPTREGION_DEFAULT=us915

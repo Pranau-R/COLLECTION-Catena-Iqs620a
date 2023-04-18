@@ -22,12 +22,12 @@
 [submodule "libraries/MCCI_FRAM_I2C"]
 	path = libraries/MCCI_FRAM_I2C
 	url = git@github.com:mcci-catena/MCCI_FRAM_I2C.git
-[submodule "libraries/Catena_Iqs620a"]
-	path = libraries/Catena_Iqs620a
-	url = git@github.com:Pranau-R/Catena_Iqs620a.git
-[submodule "sketches/Catena_Iqs620a_simple"]
-	path = sketches/Catena_Iqs620a_simple
-	url = git@github.com:Pranau-R/Catena_Iqs620a_simple.git
 [submodule "libraries/arduino-lmic"]
 	path = libraries/arduino-lmic
 	url = git@github.com:mcci-catena/arduino-lmic.git
+[submodule "libraries/MCCI_Catena_Iqs620a"]
+	path = libraries/MCCI_Catena_Iqs620a
+	url = git@gitlab-x.mcci.com:client/woodfern/wakefield/sketches/MCCI_Catena_Iqs620a.git
+[submodule "sketches/Catena_Iqs620a_lorawan"]
+	path = sketches/Catena_Iqs620a_lorawan
+	url = git@gitlab-x.mcci.com:client/woodfern/wakefield/sketches/Catena_Iqs620a_lorawan.git
